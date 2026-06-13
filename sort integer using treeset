@@ -1,0 +1,22 @@
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        
+       
+       TreeSet<Integer> a = new TreeSet<>(); 
+        a.add(10);
+        a.add(20);
+        a.add(10);
+        a.add(40);
+        a.add(60);
+        a.add(20);
+        a.add(70);
+        a.remove(70);
+       
+        System.out.println(a);
+       
+        
+    }
+}  
+          
